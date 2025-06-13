@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: white;
+}
+
+main {
+  background-color: #182240;
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stop-watch {
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+}
+.stop-watch .group span {
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+}
+.stop-watch .sepr {
+  transform: translate(-6px);
+  padding: 0.5rem;
+}
+.stop-watch .btn-group .btn {
+  margin: 0.1rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+.stop-watch .btn-group .btn-recode {
+  background: #5B9004;
+}
+.stop-watch .btn-group .btn-reset {
+  background: #5B9004;
+}
+.stop-watch .btn-group .btn-stop {
+  background: #D90416;
+}
+.stop-watch .btn-group .btn-start {
+  background: #3698d4;
+}/*# sourceMappingURL=stlye.css.map */
